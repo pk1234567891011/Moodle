@@ -11,6 +11,7 @@ $rec=$DB->get_records_sql('SELECT * FROM  `mdl_trial`');
 $table = new html_table();
 
 $table->width = "80%";
+$table->attributes['border'] = '1px';
 
 $table->head = array('Email','Password','Action1','Action2',
             );
